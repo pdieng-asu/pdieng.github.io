@@ -1,2 +1,9 @@
 cd "/Users/papedieng/Documents/New project/book-bans-site"
 mv "index_inline_slim.2 html.html" "index.html"
+cd "/Users/papedieng/Documents/New project/book-bans-site"
+git init
+git add "index_inline_slim.2 html.html"
+git commit -m "Add book bans interactive site"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/book-bans-site.git
+git push -u origin main 
